@@ -1,0 +1,3 @@
+- Started on 3rd Aug 2024
+- 9th Aug (Almost most work completed of HTML, CSS and JS but animatins due)
+- 11th Aug (completed)

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidcap Family Golf</title>
+    <!-- link favicon -->
+     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Font Awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- div for contain all body code -->
+    <div id="main">
+        <!-- div for cursor -->
+        <div class="crsr"></div>
+        <div class="crsr_blur"></div>
+        <!-- main div for conatain all pages -->
+        <div class="main">
+            <div class="alert_box">
+                <div class="left">
+                    <i class="fa-solid fa-person-circle-exclamation"></i>
+                </div>
+                <div class="right">
+                    <h1>IMPORTANT !</h1>
+                    <h2>This website is a UI clone of <a href="https://sidcupfamilygolf.com/" target="_blank">'Sidcup Family Golf'</a> made for educational purposes only. <br> It is not the official site and does not offer real services.</h2>
+                    <h5>"This site is optimized for PC/Laptop users and designed to provide an exceptional experience. <br> For the best experience, please use a PC or Laptop."</h5>
+                    <button class="green_btn" onclick="notice_continue()" id="notice_continue">Continue <i class="fa-solid fa-arrow-down pointer"></i></button>
+                    <a href="https://shubhamdixit.netlify.app/" target="_blank" class="shubham">- Shubham Dixit</a>
+                </div>
+            </div>
+            <!-- background video  -->
+            <video src="videos/background_video.mp4" class="background_video" autoplay loop muted></video>
+            <!-- nav -->
+            <div class="nav">
+                <div class="inner_nav">
+                    <a href="https://sidcupfamilygolf.com/" target="_blank"><img src="images/logo-white.svg" alt="logo" class="pointer"></a>
+                    <h4 class="pointer" id="TOPTRACER-RANGE" onclick="TOPTRACER_RANGE()">TOPTRACER RANGE</h4>
+                    <h4 class="pointer" id="GOLF-LESSONS" onclick="GOLF_LESSONS()">GOLF LESSONS</h4>
+                    <h4 class="pointer" id="ADVENTURE-GOLF" onclick="ADVENTURE_GOLF()">ADVENTURE GOLF</h4>
+                    <h4 class="pointer" id="CAFE" onclick="CAFE()">CAFE</h4>
+                    <h4 class="pointer" id="EVENTS" onclick="EVENTS()">EVENTS</h4>
+                    </div>
+                <div class="nav_btns inner_nav">
+                    <button class="green_btn" id="BOOK-RANGE" onclick="BOOK_RANGE()">BOOK RANGE</button>
+                    <button class="green_btn" id="BOOK-GOLF" onclick="BOOK_GOLF()">BOOK GOLF</button>
+                </div>
+            </div>
+            <!-- page_1 -->
+            <div class="page1">
+                <h1>EAT. DRINK. PLAY.</h1>
+                <h2>WELCOME TO SIDCUP FAMILY GOLF!</h2>
+                <p>Sidcup Family Golf is a Toptracer driving range and crazy golf venue in Sidcup, South East London. Passionate about technology, player development and making golf fun and accessible to everyone.</p>
+                <div class="arrow_down pointer">
+                    <i class="fa-solid fa-arrow-down pointer" style="color: #ffffff;"></i>
+                </div>
+            </div>
+            <!-- page_2  -->
+            <div class="page2">
+                <div class="scroller">
+                    <div class="scroller-in">
+                        <h4>TOPTRACER RANGE</h4>
+                        <h4>GOLF LESSONS</h4>
+                        <h4>ADVENTURE GOLF</h4>
+                        <h4>CAFE</h4>
+                        <h4>EVENTS</h4>
+                    </div>
+                    <div class="scroller-in">
+                        <h4>TOPTRACER RANGE</h4>
+                        <h4>GOLF LESSONS</h4>
+                        <h4>ADVENTURE GOLF</h4>
+                        <h4>CAFE</h4>
+                        <h4>EVENTS</h4>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="left_about">
+                        <img src="images/home-about-1.avif" alt="">
+                    </div>                
+                    <div class="center_about">
+                        <h2>ABOUT US</h2>
+                        <p>Home to a 46-bay, multi-tier, floodlit driving range, powered by Toptracer Range technology. Complimented by a practice green and bunker, coffee shop and American Golf Store. There truly is something for everyone as we also boast two outdoor 18-hole dinosaur themed crazy golf courses.</p>
+                        <p>Please note: we are a cashless venue. The range closes at 10pm with last balls at 9pm</p>
+                    </div>
+                    <div class="right_about">
+                        <img src="images/home-about-2.avif" alt="">
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="images/dots-white.svg" alt="dots">
+                    <div class="inner_cards pointer" id="card1">
+                        <div class="overlay">
+                            <div class="arrow_right pointer" id="re-TOPTRACER-RANGE" onclick="TOPTRACER_RANGE()">
+                                <i class="fa-solid fa-arrow-down pointer"></i>
+                            </div>
+                            <h4>Toptracer Range</h4>
+                            <p>Our range delivers the same ball-tracking technology that traces the shots of the game's best players on TV.</p>
+                            <p>Toptracer Range technology offers a fun, engaging, tech-driven experience that appeals to seasoned players, range rivals, friends, family members, and even first-time golfers.</p>
+                        </div>
+                        <h2>TOPTRACER <br> RANGE</h2>
+                    </div>
+                    <div class="inner_cards pointer" id="card2">
+                        <div class="overlay">
+                            <div class="arrow_right pointer" id="re-ADVENTURE-GOLF" onclick="ADVENTURE_GOLF()">
+                                <i class="fa-solid fa-arrow-down pointer"></i>
+                            </div>
+                            <h4>Adventure Golf</h4>
+                            <p>Become a Jurassic explorer as you delve into the land of the dinosaurs! Putt your way through prehistoric landscape, cascading waterfalls and meet some dinosaur friends along the way.</p>
+                        </div>
+                        <h2>ADVENTURE GOLF <br> &nbsp; MR MULLIGAN'S</h2>
+                    </div>
+                    <div class="inner_cards pointer" id="card3">
+                        <div class="overlay">
+                            <div class="arrow_right pointer" id="re-GOLF-LESSONS" onclick="GOLF_LESSONS()">
+                                <i class="fa-solid fa-arrow-down pointer"></i>
+                            </div>
+                            <h4>Golf Lessons</h4>
+                            <p>Passionate about player development, whether you are new to the game or an aspiring pro, we offer both group and individual lessons tailored to you with the sole focus of helping you reach your goals.</p>
+                        </div>
+                        <h2>GOLF LESSONS</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- page 3 -->
+            <div class="page3">
+                <div class="green_gradient">
+                    <img src="images/left_gradient.svg" alt="" id="gradient_img_1">
+                    <h2>SIGN UP FOR SIDCUP NEWS AND SPECIAL OFFERS <br> STRAIGHT TO YOUR INBOX</h2>
+                    <img src="images/right_gradient.svg" alt="" id="gradient_img_2">
+                </div>
+                <div class="food_images">
+                    <div class="left">
+                        <div class="left_images">
+                            <div id="food_img_1" class="food_inner_images"></div>
+                            <div id="food_img_2" class="food_inner_images"></div>
+                            <div id="food_img_3" class="food_inner_images"></div>
+                        </div>
+                        <img src="images/dots-white.svg" class="white_dots_food">
+                        <div class="img_btns">  
+                            <div id="img_btn1" class="img_btn pointer"></div>
+                            <div id="img_btn2" class="img_btn pointer"></div>
+                            <div id="img_btn3" class="img_btn pointer"></div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2>FOOD AND DRINK</h2>
+                        <P>Whether you're getting ready to play, just finishing your practice session or feeling peckish on the range, we have a variety of food and drink options bought directly to your table or bay. We make sure that we cater for everyone, offering a range of vegan and gluten free options.</P>
+                        <P>We make sure that we cater for everyone, offering a range of vegan and gluten free options.</P>
+                        <button class="green_btn" id="coffee-shop" onclick="CAFE()">COFFEE SHOP</button>
+                    </div>
+                </div>
+            </div>
+            <!-- page 4 -->
+            <div class="page4">
+                <div class="note">
+                    <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg" id="note_img_1">
+                    <p>Pleasantly surprised to discover the mini golf is open until 10pm during weekdays 😊 Always enjoy visit here, cafe does some nice goodies too 👍🏽</p>
+                    <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg" id="note_img_2">
+                </div>
+                <div class="btnWithText">
+                    <div class="big_txt">
+                        <p class="big_txt_p">WHAT ARE YOU WAITING FOR?</p>
+                    </div>
+                    <div class="pg4_btns">
+                        <div class="btn_pg4 pointer" id="pg4_1" onclick="TOPTRACER_RANGE()">TOPTRACER RNAGE</div>
+                        <div class="btn_pg4 pointer" id="pg4_2" onclick="GOLF_LESSONS()">GOLF LESSONS</div>
+                        <div class="btn_pg4 pointer" id="pg4_3" onclick="ADVENTURE_GOLF()">ADVENTURE GOLF</div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+             <div class="footer">
+                <img src="images/dots-footer.svg" alt="" class="footer_dots">
+                <div class="footer_upper">
+                    <div class="footer_col1">
+                        <div class="p1_upper">
+                            <img src="images/logo-white.svg" alt="" onclick="family_golf()" class="pointer">
+                        </div>
+                        <div class="p1_lower">
+                            <i class="fa-brands fa-square-facebook pointer" onclick="facebook()"></i>
+                            <i class="fa-brands fa-square-instagram pointer" onclick="instagram()"></i>
+                        </div>
+                    </div>
+                    <div class="footer_col2">
+                        <p class="pointer" onclick="TOPTRACER_RANGE()">Toptracer Range</p><br>
+                        <p class="pointer" onclick="ADVENTURE_GOLF()">Crazy Golf</p><br>
+                        <p class="pointer" onclick="CAFE()">Café</p>
+                    </div>
+                    <div class="footer_col3">
+                        <p class="pointer" onclick="EVENTS()">Events</p><br>
+                        <p class="pointer" onclick="GOLF_LESSONS()">Golf Lessons</p><br>
+                        <p class="pointer" onclick="contact()">Contact Us</p>
+                    </div>
+                    <div class="footer_col4">
+                        <h3>A20, Sidcup Bypass</h3>
+                        <h3>Chislehurst</h3>
+                        <h3>Kent</h3>
+                        <h3>BR7 6RP</h3>
+                        <h3>Tel: 0208 309 0181</h3>
+                        <p class="pointer" onclick="direction()">Get Directions</p>
+                    </div>
+                </div>
+                <div class="footer_lower">
+                    <div class="left">
+                        <div class="left_p1">
+                            <p>Copytight &copy; 2024 Adventure Leisure Ltd. All rights reserved.</p>
+                        </div>
+                        <div class="left_p2">
+                            <p>
+                                <span>|</span>
+                                <h3 class="pointer" onclick="privacy_policy()">Privacy Policy</h3>
+                                <span>|</span>
+                                <h3 class="pointer" onclick="terms_and_conditions()">Terms And Conditions</h3>
+                                <span>|</span>
+                                <h3 class="pointer" onclick="pay_gap()">Gender Pay Gap</h3> 
+                            </p>
+                        </div>
+                        <!-- <p>Copytight &copy; 2024 Adventure Leisure Ltd. All rights reserved. <span>|</span> <h3 class="pointer" onclick="privacy_policy()">Privacy Policy</h3> <span>|</span> <h3 class="pointer" onclick="terms_and_conditions()">Terms And Conditions</h3> <span>|</span> <h3 class="pointer" onclick="pay_gap()"> Gender Pay Gap</h3> </p> -->
+                    </div>
+                    <div class="right">
+                        <h3 class="pointer" onclick="web_design()">Web Design London</h3>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Default JS -->
+    <script src="script.js"></script>
+</body>
+</html>

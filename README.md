@@ -77,4 +77,3 @@ Contributions are welcome! To contribute:
 ---
 
 **Disclaimer:** This project is for educational purposes only and is not affiliated with any real family golf websites.
-```
